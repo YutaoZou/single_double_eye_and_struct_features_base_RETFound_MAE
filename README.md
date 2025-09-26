@@ -12,7 +12,7 @@
 
 | 功能 (Function) | 对应脚本 (Script) | 说明 (Description) |
 | :--- | :--- | :--- |
-| **数据预处理** | `preprocess_eye_img.py` | 处理原始眼底图像和结构化数据，生成模型可直接使用的输入文件。 |
+| **数据预处理** | `preprocess_eye_img.ipynb` | 处理原始眼底图像和结构化数据，生成模型可直接使用的输入文件。 |
 | **单眼抑郁分类** | `main_finetune.py` | 使用单眼眼底图像进行抑郁分类。 |
 | **双眼抑郁分类** | `double_eyes_retfound.py` | 同时使用左右眼眼底图像进行抑郁分类。 |
 | **多模态融合分类** | `single_eye_struct_fusion_retfound.py` | 融合单眼眼底图像和结构化特征进行抑郁分类。 |
@@ -26,7 +26,7 @@
 首先，运行预处理脚本对原始数据进行处理。
 
 ```bash
-python preprocess_eye_img.py
+python preprocess_eye_img.ipynb
 ```
 
 ### 步骤 2: 模型训练与评估
